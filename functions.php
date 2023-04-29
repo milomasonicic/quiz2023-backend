@@ -20,3 +20,4 @@ function check_auth(){
         return redirect('/login');
     }
 }
+/*functions*/
