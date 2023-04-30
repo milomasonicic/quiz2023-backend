@@ -119,7 +119,7 @@ class QuizController
         echo json_encode($mappedquestions);
     }
 
-    public function getcorrectanswers()
+    /*public function   getcorrectanswers()
     {
         $answers = App::get('database')->SelectAll('answers');
 
@@ -134,6 +134,16 @@ class QuizController
         }, $answers);
 
         echo json_encode($mappedanswers);
+    }*/
+
+    public function getcorrectanswers()
+    {
+        //check_auth();
+
+        $id = $_GET['id'];
+        // contact db and get a user
+        $answer = App::get('database')->selectOne('answers',$id);
+        echo json_encode($answer);
     }
 
    
