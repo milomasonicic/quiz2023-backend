@@ -1,4 +1,4 @@
-# QUIZ2023 - BACK END
+# QUIZ2023
 
 This is a simple quiz application. The frontend part is made using HTML, CSS, and JS. The backend part is made using PHP and MySQL.
 
@@ -10,3 +10,9 @@ This is a simple quiz application. The frontend part is made using HTML, CSS, an
 ## Details 
    * admin e-mail: admin@admin.com
    * password: topsecret
+
+## API structure
+   * "http://localhost:8099/api/questions" - get request to get questions
+   * "http://localhost:8099/api/answers" - get request to get answers
+   * "http://localhost:8099/api/answersCorrect + "?id=" + resArr[i]" - get correct answers based on the id of a choosen answer
+
