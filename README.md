@@ -4,7 +4,8 @@ This is a simple quiz application. The frontend part is made using HTML, CSS, an
 
 # Backend, admin side
 * github link https://github.com/milomasonicic/quiz2023-backend.git (master branche)
-* import Quiz2023.sql
+* start Apache and MySQL in XAMP Control Panel
+* import quiz.sql
 * run php -S localhost:8099
 
 ## Details 
